@@ -1,0 +1,44 @@
+name: Bug Report
+description: Report a bug or issue with Spin Chess
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue! Please fill out the details below.
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: What device are you using?
+      placeholder: e.g., iPhone 15 Pro, iPhone SE 3rd gen
+    validations:
+      required: true
+  - type: input
+    id: ios-version
+    attributes:
+      label: iOS Version
+      placeholder: e.g., iOS 18.3
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: Describe what you expected to happen and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Start a new game (vs Computer, Medium)
+        2. Move pawn to e4
+        3. Rotate grid 6
+        4. ...
+    validations:
+      required: false
