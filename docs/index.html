@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Spin Chess</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1c26;
+            --gold: #c9a84c;
+            --gold-dim: #a08339;
+            --text: #d4d4d8;
+            --text-muted: #8b8b96;
+            --border: #2a2c38;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .grain {
+            position: fixed;
+            inset: 0;
+            opacity: 0.03;
+            pointer-events: none;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            z-index: 100;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 2rem;
+        }
+
+        header a {
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        header .logo-text {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: var(--gold);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        header .crown {
+            font-size: 1.1rem;
+        }
+
+        main {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 3.5rem 2rem 5rem;
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.02em;
+        }
+
+        .updated {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: #e8e8ec;
+            margin-top: 2.25rem;
+            margin-bottom: 0.75rem;
+            letter-spacing: 0.01em;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            color: var(--text);
+        }
+
+        a {
+            color: var(--gold);
+            text-decoration: none;
+            border-bottom: 1px solid var(--gold-dim);
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-color: var(--gold);
+        }
+
+        .divider {
+            width: 3rem;
+            height: 1px;
+            background: var(--border);
+            margin: 2.5rem 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        footer .crown { font-size: 0.9rem; }
+
+        @media (max-width: 600px) {
+            main { padding: 2rem 1.25rem 3rem; }
+            h1 { font-size: 1.75rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="grain"></div>
+
+    <header>
+        <a href="/">
+            <span class="crown">♛</span>
+            <span class="logo-text">Spin Chess</span>
+        </a>
+    </header>
+
+    <main>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: February 1, 2026</p>
+
+        <p>Spin Chess is developed by Mountaingoatz. Your privacy is important, and this policy explains how the app handles your information — in short, it doesn't collect any.</p>
+
+        <h2>Data Collection</h2>
+        <p>Spin Chess does not collect, store, or transmit any personal data or usage information. The app operates entirely on your device with no network communication, no analytics, no advertising, and no third-party services.</p>
+        <p>No data is collected, shared, or sold to any third party.</p>
+
+        <h2>Permissions</h2>
+        <p>Spin Chess does not request access to any device permissions such as camera, microphone, location, contacts, or photos.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>Spin Chess does not knowingly collect any information from children. The app contains no advertising, no in-app purchases, and no data collection of any kind.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>If this privacy policy is updated, the changes will be posted at this URL with a revised date. Continued use of the app after any changes constitutes acceptance of the updated policy.</p>
+
+        <div class="divider"></div>
+
+        <h2>Contact</h2>
+        <p>If you have any questions about this privacy policy, you may contact:<br>
+        <a href="mailto:spinchess@outlook.com">spinchess@outlook.com</a></p>
+    </main>
+
+    <footer>
+        <span class="crown">♛</span> Spin Chess © 2026 Mountaingoatz
+    </footer>
+</body>
+</html>
