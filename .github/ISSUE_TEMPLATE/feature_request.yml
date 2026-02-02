@@ -1,0 +1,19 @@
+name: Feature Request
+description: Suggest an idea or improvement for Spin Chess
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like to see?
+      description: A clear description of the feature or improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Why would this be useful?
+      description: Any additional context about why this would improve the game.
+    validations:
+      required: false
