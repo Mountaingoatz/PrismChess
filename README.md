@@ -1,8 +1,8 @@
-# Spin Chess
+# Prism Chess
 
 **Chess with a twist — rotate 2×2 grids on the board to reshape the battlefield.**
 
-Spin Chess is a chess variant played on a standard 8×8 board with one addition: the middle four rows (rows 3–6) are divided into eight 2×2 grids that players can rotate 180° on their turn.
+Prism Chess is a chess variant played on a standard 8×8 board with one addition: the middle four rows (rows 3–6) are divided into eight 2×2 grids that players can rotate 180° on their turn.
 
 ## How to Play
 
@@ -21,11 +21,11 @@ Spin Chess is a chess variant played on a standard 8×8 board with one addition:
 
 ## Support
 
-Having an issue? [Open an issue](../../issues) on this repo or email [spinchess@outlook.com](mailto:spinchess@outlook.com).
+Having an issue? [Open an issue](../../issues) on this repo or email [prismchess@outlook.com](mailto:prismchess@outlook.com).
 
 ## Privacy
 
-Spin Chess collects no data. See the full [Privacy Policy](https://Mountaingoatz.github.io/SpinChess/).
+Prism Chess collects no data. See the full [Privacy Policy](https://Mountaingoatz.github.io/PrismChess/).
 
 ## License
 
